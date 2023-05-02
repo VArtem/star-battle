@@ -1,0 +1,8 @@
+[package]
+name = "star-battle"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.50.3"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "39478763114722f0ec7613cb2f3f7701f9b86c8d"}
